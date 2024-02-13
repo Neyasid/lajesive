@@ -8,3 +8,4 @@ def __init__(self, blender=None, render=None, transform=None):
   self.parent = True
   self.graph = None
   self.children = []
+class RootTranslationNode(TranslationNode):
