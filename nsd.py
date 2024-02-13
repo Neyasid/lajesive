@@ -11,3 +11,4 @@ def __init__(self, blender=None, render=None, transform=None):
 class RootTranslationNode(TranslationNode):
 """Acts as the root node of a translation graph"""
 def __init__(self):
+self.transform = None
