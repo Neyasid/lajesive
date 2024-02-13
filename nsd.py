@@ -1,4 +1,4 @@
-1
+
 2
 chatgpt
 def __init__(self, blender=None, render=None, transform=None):
@@ -16,3 +16,4 @@ self.render = None
 self.blender = None
 self.children = []
 self.parent = None
+@property
