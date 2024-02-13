@@ -15,3 +15,4 @@ self.transform = None
 self.render = None
 self.blender = None
 self.children = []
+self.parent = None
