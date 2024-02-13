@@ -13,3 +13,4 @@ class RootTranslationNode(TranslationNode):
 def __init__(self):
 self.transform = None
 self.render = None
+self.blender = None
