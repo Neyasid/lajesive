@@ -6,3 +6,4 @@ self.blender = blender
 self.render = render
 self.transform = transform
 self.parent = True
+self.graph = None
