@@ -12,3 +12,4 @@ class RootTranslationNode(TranslationNode):
 """Acts as the root node of a translation graph"""
 def __init__(self):
 self.transform = None
+self.render = None
