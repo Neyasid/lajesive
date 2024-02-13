@@ -7,3 +7,4 @@ self.render = render
 self.transform = transform
 self.parent = True
 self.graph = None
+self.children = []
