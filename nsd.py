@@ -18,3 +18,4 @@ self.children = []
 self.parent = None
 @property
 def name(self):
+return "<ROOT>"
