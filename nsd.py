@@ -17,3 +17,4 @@ self.blender = None
 self.children = []
 self.parent = None
 @property
+def name(self):
