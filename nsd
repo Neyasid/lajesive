@@ -3,5 +3,5 @@
 chatgpt
 def __init__(self, blender=None, render=None, transform=None):
 self.blender = blender
-
+self.render = render
 
