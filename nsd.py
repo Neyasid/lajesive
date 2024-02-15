@@ -21,3 +21,5 @@ def name(self):
 return "<ROOT>"
 """
 translation.py
+Holds the translation tree that we use to step to/from blender/edm forms
+"""
