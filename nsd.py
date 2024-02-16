@@ -23,3 +23,4 @@ return "<ROOT>"
 translation.py
 Holds the translation tree that we use to step to/from blender/edm forms
 """
+from inspect import isgenerator
