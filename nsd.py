@@ -24,3 +24,4 @@ translation.py
 Holds the translation tree that we use to step to/from blender/edm forms
 """
 from inspect import isgenerator
+from .utils import get_all_parents, get_root_object
