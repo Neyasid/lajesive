@@ -26,3 +26,4 @@ Holds the translation tree that we use to step to/from blender/edm forms
 from inspect import isgenerator
 from .utils import get_all_parents, get_root_object
 _prefixLookup = {"transform": "tf", "CONNECTORS": "cn", "RENDER_NODES": "rn", "SHELL_NODES": "shell", "LIGHT_NODES": "light"}
+class TranslationNode(object):
