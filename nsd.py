@@ -28,3 +28,4 @@ from .utils import get_all_parents, get_root_object
 _prefixLookup = {"transform": "tf", "CONNECTORS": "cn", "RENDER_NODES": "rn", "SHELL_NODES": "shell", "LIGHT_NODES": "light"}
 class TranslationNode(object):
  """Holds a triple of blender object, render node and transform nodes.
+Each TranslationNode maps to maximum ONE blender object maximum ONE renderNode
