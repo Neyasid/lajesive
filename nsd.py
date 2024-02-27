@@ -29,3 +29,4 @@ _prefixLookup = {"transform": "tf", "CONNECTORS": "cn", "RENDER_NODES": "rn", "S
 class TranslationNode(object):
  """Holds a triple of blender object, render node and transform nodes.
 Each TranslationNode maps to maximum ONE blender object maximum ONE renderNode
+and maximum ONE transform node. It may map to more than one type, in cases
