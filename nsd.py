@@ -32,5 +32,6 @@ Each TranslationNode maps to maximum ONE blender object maximum ONE renderNode
 and maximum ONE transform node. It may map to more than one type, in cases
 where they are directly equatable.
  """
-  blender = None
+blender = None
 render = None
+transform = None
