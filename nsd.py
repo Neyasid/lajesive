@@ -35,3 +35,4 @@ where they are directly equatable.
 blender = None
 render = None
 transform = None
+graph = None
