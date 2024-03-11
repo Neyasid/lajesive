@@ -36,3 +36,4 @@ blender = None
 render = None
 transform = None
 graph = None
+@property
