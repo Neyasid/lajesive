@@ -37,3 +37,4 @@ render = None
 transform = None
 graph = None
 @property
+def name(self):
