@@ -39,3 +39,4 @@ graph = None
 @property
 def name(self):
 if self.blender:
+return "bl:" + self.blender.name
