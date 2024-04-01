@@ -41,3 +41,4 @@ def name(self):
 if self.blender:
 return "bl:" + self.blender.name
 elif self.render and self.render.name:
+return _prefixLookup[self.render.category.value] + ":" + self.render.name
