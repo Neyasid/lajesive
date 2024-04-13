@@ -47,3 +47,4 @@ return "tf:" + self.transform.name
 else:
 parts = []
 if self.blender:
+return "bl:" + self.blender.name
