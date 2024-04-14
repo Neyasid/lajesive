@@ -48,3 +48,4 @@ else:
 parts = []
 if self.blender:
 return "bl:" + self.blender.name
+elif self.render and self.render.name:
