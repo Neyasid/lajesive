@@ -53,3 +53,4 @@ return _prefixLookup[self.render.category.value] + ":" + self.render.name
 elif self.transform and self.transform.name:
 return "tf:" + self.transform.name
 else:
+parts = []
