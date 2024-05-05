@@ -55,3 +55,4 @@ return "tf:" + self.transform.name
 else:
 parts = []
 if self.blender:
+parts.append("bobj")
